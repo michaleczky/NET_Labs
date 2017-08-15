@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covariance", "Covariance\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{7E4C640D-7945-4F65-979C-16D53EB93BBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalException", "ConditionalException\ConditionalException.csproj", "{FC801675-8550-4AB8-80FC-9A9CF48586F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{7E4C640D-7945-4F65-979C-16D53EB93BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E4C640D-7945-4F65-979C-16D53EB93BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E4C640D-7945-4F65-979C-16D53EB93BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC801675-8550-4AB8-80FC-9A9CF48586F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC801675-8550-4AB8-80FC-9A9CF48586F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC801675-8550-4AB8-80FC-9A9CF48586F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC801675-8550-4AB8-80FC-9A9CF48586F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +45,6 @@ Global
 		{BF1008B4-0D8F-4CB5-BA40-D2C3F1D722D5} = {597077BF-E433-4F35-B3B3-2624252A2237}
 		{731E9AD2-FD4C-4BEB-8B95-86741E71B88A} = {247BC8AD-CDB1-4CCF-AB71-7632DBECB351}
 		{7E4C640D-7945-4F65-979C-16D53EB93BBE} = {247BC8AD-CDB1-4CCF-AB71-7632DBECB351}
+		{FC801675-8550-4AB8-80FC-9A9CF48586F4} = {247BC8AD-CDB1-4CCF-AB71-7632DBECB351}
 	EndGlobalSection
 EndGlobal

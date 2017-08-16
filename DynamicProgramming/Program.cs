@@ -31,17 +31,20 @@ namespace DynamicProgramming
             expando.Id = 12;
             Console.WriteLine($"{expando.Name}, {expando.Id}");
 
-            Console.ReadKey();
+            Console.ReadKey();            
+
         }
 
         static int GetDynamicStringLength(dynamic dyn)
         {
             Type t = dyn.GetType();
-            if (t.Name.Equals("String")) {
+            if (t.Name.Equals("String"))
+            {
                 PropertyInfo prop = t.GetProperty("Length");
                 return prop.GetValue(dyn);
             }
             return -1;
         }
+
     }
 }

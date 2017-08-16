@@ -26,7 +26,8 @@ namespace Covariance
         }
     }
 
-    class BusinessDocument {
+    class BusinessDocument
+    {
         public string Title { get; set; }
 
         public BusinessDocument(string title)

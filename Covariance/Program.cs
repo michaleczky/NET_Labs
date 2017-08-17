@@ -17,7 +17,7 @@ namespace Covariance
             BusinessDocument[] docsarr = { invoice1, invoice2 };
 
             // example for covariance in generics
-            IEnumerable<Invoice> invoices = new List<Invoice>() { invoice1, invoice2 };
+            ICollection<Invoice> invoices = new List<Invoice>() { invoice1, invoice2 };
             IEnumerable<BusinessDocument> docs = invoices;
 
             // contravariance example
